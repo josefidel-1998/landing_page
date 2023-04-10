@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'all_round_gothicdemi';
+    src: url('../fonts/fontspring-demo-allroundgothic-demi-webfont.woff2') format('woff2'),
+         url('../fonts/fontspring-demo-allroundgothic-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+a,p,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    font-family: 'all_round_gothicdemi';
+}
+
+h1{
+    font-size: 0px;
+    color: transparent;
+}
+
+h1::after{
+    content: url('../../public/imagenes/logo2.jpg');
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.imagen__nosotros{
+    width: 100vw;
+    min-height: 60vh;
+    object-fit: contain;
+}
+
+.animacion__nosotros{
+    animation: animacion_mostrar 2s ease-in-out 1s;
+}
+
+@keyframes animacion_mostrar {
+    from {
+        text-indent: -1000px;
+        opacity: 0;
+    }
+    to{
+        text-indent: 0;
+        opacity: 1;
+    }
+}
+.funcionalidades{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../public/imagenes/fondo_oceano.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    padding-block: 4rem;
+    animation: presentacion 3s ease-in-out 1s 1 normal;
+    margin: auto;
+}
+
+@keyframes presentacion{
+    0%{
+        margin-left: -100rem;
+        opacity: 0;
+    }
+    100%{
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .funcionalidades{
+        padding-block-start: 20rem;
+        padding-block-end: 8rem;
+    }
+    h1::after{
+        content: url('../../public/imagenes/logo2.jpg');
+        display: block;
+        position: absolute;
+        top: 10px;
+        margin-inline-start: 2.1rem;
+        padding-block-start: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .imagen__nosotros{
+        object-fit: cover;
+        object-position: left top;
+        filter: brightness(53%);
+        -webkit-filter: brightness(53%);
+        -moz-filter: brightness(53%);
+    }
+   /* h1::after{
+        content: url('../../public/imagenes/logo2.jpg');
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 46%;
+    }*/
+}
+
+
+@media screen and (max-width: 368px) {
+    .funcionalidades h2{
+        font-size: 2rem;
+    }
+}
