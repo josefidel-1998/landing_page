@@ -4,7 +4,7 @@
         <ul class="md:w-[80%] w-[100%] mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-content-center gap-20 md:mt-10 mt-20">
 
         <li 
-        class="md:min-w-[240px] max-w-[400px] mx-auto bg-white li__fondo" 
+        class="md:min-w-[240px] sm:max-w-[400px] max-w-[300px] mx-auto bg-white li__fondo" 
         v-for="articulo in articulos" 
         :key="articulo.titulo">
         <img
@@ -28,27 +28,27 @@
     const articulos = ref([
         {
             titulo: "Busquedas de especies",
-            ruta: '../../public/imagenes/imagen_3.jpg'
+            ruta: 'https://res.cloudinary.com/duadnkhtu/image/upload/v1681181733/imagen_3_lxsl0p.jpg'
         },
         {
             titulo: "Tips para informarse",
-            ruta: '../../public/imagenes/imagen_4.jpg'
+            ruta: 'https://res.cloudinary.com/duadnkhtu/image/upload/v1681181733/imagen_4_kqvzkj.jpg'
         },
         {
             titulo: "Sugerencias",
-            ruta: '../../public/imagenes/imagen_6.jpg'
+            ruta: 'https://res.cloudinary.com/duadnkhtu/image/upload/v1681181733/imagen_6_ev315k.jpg'
         },
         {
             titulo: "Puntuación de Campings",
-            ruta: '../../public/imagenes/imagen_2.jpg'
+            ruta: 'https://res.cloudinary.com/duadnkhtu/image/upload/v1681181733/imagen_2_pxrhxl.jpg'
         },
         {
             titulo: "Perfil de usuario",
-            ruta: '../../public/imagenes/imagen_5.jpg'
+            ruta: 'https://res.cloudinary.com/duadnkhtu/image/upload/v1681181733/imagen_5_brghrd.jpg'
         },
         {
             titulo: "Meteorología",
-            ruta: '../../public/imagenes/imagen_1.jpg'
+            ruta: 'https://res.cloudinary.com/duadnkhtu/image/upload/v1681181733/imagen_1_g2pvyy.jpg'
         },
     ])
 </script>
