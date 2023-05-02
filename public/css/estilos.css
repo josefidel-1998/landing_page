@@ -26,7 +26,7 @@ h1{
 }
 
 h1::after{
-    content: url('../../public/imagenes/logo2.jpg');
+    content: url('https://res.cloudinary.com/duadnkhtu/image/upload/v1682993055/logo_hqbyza.jpg');
     display: block;
     position: absolute;
     top: 10px;
