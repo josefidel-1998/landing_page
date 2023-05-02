@@ -59,7 +59,7 @@ body{
 .funcionalidades{
     width: 100%;
     min-height: 100vh;
-    background-image: url("../../public/imagenes/fondo_oceano.png");
+    background-image: url("https://res.cloudinary.com/duadnkhtu/image/upload/v1682993780/fondo_oceano_r42s9w.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -85,7 +85,7 @@ body{
         padding-block-end: 8rem;
     }
     h1::after{
-        content: url('../../public/imagenes/logo2.jpg');
+        content: url('https://res.cloudinary.com/duadnkhtu/image/upload/v1682993055/logo_hqbyza.jpg');
         display: block;
         position: absolute;
         top: 10px;
@@ -103,13 +103,6 @@ body{
         -webkit-filter: brightness(53%);
         -moz-filter: brightness(53%);
     }
-   /* h1::after{
-        content: url('../../public/imagenes/logo2.jpg');
-        display: block;
-        position: absolute;
-        top: 10px;
-        left: 46%;
-    }*/
 }
 
 
@@ -118,3 +111,4 @@ body{
         font-size: 2rem;
     }
 }
+
