@@ -3,7 +3,7 @@
         <div class="flex flex-col items-center justify-center gap-y-5">
             <div class="flex flex-col items-center justify-center gap-y-5">
                 <h2 class="md:text-5xl sm:text-4xl text-3xl">¡Descarga la App!</h2>
-                <p class="text-center w-2/3">Comienza una experiencia única con Biufort</p>
+                <p class="text-center w-2/3">Comenzá una experiencia única con Biufort.</p>
             </div>
             <a class="text-xl py-4 md:px-36 sm:px-28 px-24 boton rounded-full ease-in-out duration-300" 
             href="https://tesis-front-end-pwa.vercel.app/#/">Descargar</a>
