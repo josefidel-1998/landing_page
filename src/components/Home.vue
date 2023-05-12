@@ -1,5 +1,5 @@
 <template>
-    <article class="w-full min-h-screen grid lg:grid-cols-2 grid-cols-1 gap-y-16 place-content-center items-center lg:mt-0 mt-20">
+    <article class="w-full min-h-screen grid lg:grid-cols-2 grid-cols-1 gap-y-16 place-content-center items-center lg:mt-0 my-20">
         <div class="text-center flex flex-col gap-y-10 md:mb-0 mb-10">
             <h2 class="flex flex-col md:text-5xl text-4xl gap-5 font-bold titulo">Nosotros somos <strong class="md:text-8xl text-6xl">Biu<span class="text-blue-700">fort</span></strong></h2>
             <p class="mx-auto w-1/2 leading-relaxed">Te presentamos Biufort, una app de pesca para todos los usuarios de Buenos Aires, Argentina. Conocé más sobre nosotros y animate a descargar una experiencia increíble.</p>
