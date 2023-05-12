@@ -21,7 +21,7 @@ export default function Objetivos() {
             <h3 className="text-white bg-blue-600 p-6 rounded-full absolute -top-12 lg:left-2 md:left-[43%] left-[38%]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
             </svg></h3>
-            <p className="sm:text-left text-center w-full py-14 sm:px-8 px-10">Un problema común al que se enfrentan los pescadores, es la poca información que existe sobre los sitios de pesca. Ya sea en foros o en videos,los datos que uno puede encontrar, suelenser poco específicos o confusosy no se ajustan a las diferentes necesidades de cada usuario.</p>
+            <p className="sm:text-left text-center w-full py-14 sm:px-8 px-10">Un problema común al que se enfrentan los pescadores, es la poca información que existe sobre los sitios de pesca. Ya sea en foros o en videos, los datos que uno puede encontrar, suelen ser poco específicos o confusos y no se ajustan a las diferentes necesidades de cada usuario.</p>
           </article>
 
           <article className="w-3/5 h-full bg-gray-100 relative rounded-3xl shadow-2xl	">
@@ -42,7 +42,7 @@ y todo aquel amante de la pesca.
             <h3 className="text-white bg-blue-600 p-6 rounded-full absolute -top-12 lg:left-2 md:left-[43%] left-[38%]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
             </svg></h3>
-            <p className="sm:text-left text-center w-full py-14 sm:px-8 px-10">Nuestra app está diseñada para ser utilizada de una manera sencilla  y cómoda. Los usuarios tendrán un perfil en donde puedan intercambiar información validada de sitios de pesca, los peces que pueden encontrarse y las carnadas más adecuadas. <br /> <span className="text-blue-500">ener la experiencia de un profesional sin ser un profesional.</span></p>
+            <p className="sm:text-left text-center w-full py-14 sm:px-8 px-10">Nuestra app está diseñada para ser utilizada de una manera sencilla  y cómoda. Los usuarios tendrán un perfil en donde puedan intercambiar información validada de sitios de pesca, los peces que pueden encontrarse y las carnadas más adecuadas. <br /> <span className="text-blue-500">Tener la experiencia de un profesional sin ser un profesional.</span></p>
           </article>
       </div>
     </>
