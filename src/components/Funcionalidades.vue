@@ -1,5 +1,5 @@
 <template>
-    <article class="funcionalidades">
+    <article class="funcionalidades mb-24">
         <h2 class="text-white text-5xl font-bold lg:text-left md:mt-24 sm:mt-32 mt-48 lg:ml-44 ml-0 text-center">Funcionalidades</h2>
         <ul class="md:w-[80%] w-[100%] mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-content-center gap-20 md:mt-10 mt-20">
 
@@ -27,7 +27,7 @@
     import {ref} from 'vue';
     const articulos = ref([
         {
-            titulo: "Busquedas de especies",
+            titulo: "Búsqueda de especies",
             ruta: 'https://res.cloudinary.com/duadnkhtu/image/upload/v1681181733/imagen_3_lxsl0p.jpg'
         },
         {

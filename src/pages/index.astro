@@ -3,6 +3,7 @@
 	import Nosotros from "../components/Nosotros.jsx";
 	import Funcionalidades from "../components/Funcionalidades.vue";
 	import Objetivos from "../components/Objetivos.jsx";
+	import Descargar from "../components/Descargar.vue";
 ---
 
 <html lang="es">
@@ -43,6 +44,9 @@
 			</section>
 			<section id="funcionalidades">
 				<Funcionalidades client:load/>
+			</section>
+			<section id="descargar">
+				<Descargar client:visible/>
 			</section>
 		</main>
 		<footer aria-label="Site Footer" class="bg-white">
