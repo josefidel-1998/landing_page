@@ -13,18 +13,18 @@
             class="w-full h-auto max-w-full  rounded-xl object-cover"/>
 
         <div class="p-4">
-            <h3 class="text-lg font-bold text-gray-900 text-center">
+            <h3 :class="[articulo.titulo == text ? 'fonsts_change' : '' ,  'text-lg font-bold text-gray-900 text-center' ]">
                 {{ articulo.titulo }}
             </h3>
         </div>
         </li>
-
         </ul>
     </article>
 </template>
 
 <script setup>
     import {ref} from 'vue';
+    let text = ref("Puntuación de Campings")
     const articulos = ref([
         {
             titulo: "Búsqueda de especies",
@@ -50,7 +50,8 @@
             titulo: "Meteorología",
             ruta: 'https://res.cloudinary.com/duadnkhtu/image/upload/v1681181733/imagen_1_g2pvyy.jpg'
         },
-    ])
+    ]);
+
 </script>
 
 <style scope>

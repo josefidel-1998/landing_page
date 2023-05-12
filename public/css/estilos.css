@@ -12,7 +12,14 @@
 *{
     scroll-behavior: smooth;
 }
-a,p,h2,h3,h4,h5,h6{
+a,p{
+    font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: 'all_round_gothicdemi';
+}
+
+.fonsts_change{
     font-family: 'Montserrat', sans-serif;
 }
 h1{
